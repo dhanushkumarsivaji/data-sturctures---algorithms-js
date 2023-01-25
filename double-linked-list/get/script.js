@@ -43,7 +43,7 @@ class DoubleLinkedList{
         return this
     }
 
-    ushift(value){
+    unshift(value){
         const newNode = new Node(value)
         if(!this.head){
             this.head = newNode
